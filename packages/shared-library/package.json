@@ -1,0 +1,12 @@
+{
+  "name": "@mfes/shared-library",
+  "version": "1.0.0",
+  "main": "./src/index.ts",
+  "scripts": {
+    "lint:fix": "npm run lint -- --fix",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "test": "jest",
+    "typecheck": "tsc",
+    "clean": "rm -rf build node_modules"
+  }
+}
